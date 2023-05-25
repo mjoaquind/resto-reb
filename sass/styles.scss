@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+header {
+    border-bottom: 1px solid #333333;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    color: #333333;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+header {
+    nav {
+        vertical-align: middle;
+        padding: 0px 10px 10px 10px;
+        a {
+            text-align: justify;
+            display: inline;
+            margin: 0px 10px;
+            vertical-align: middle;
+        }
+        ul {
+            display: inline;
+            vertical-align: middle;
+            li {
+                display: inline;
+                a {
+                    text-decoration: none;
+                    color: #333333;
+                    font-size: 18px;
+                    font-weight: bold;
+                    &:hover {
+                        color: #E95420;
+                        border-bottom: 5px solid #E95420;
+                    }
+                }
+            }
+        }
+    }
+} 
